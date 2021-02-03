@@ -1,5 +1,4 @@
-# TITLE
-Get the Middle Letter(s)
+# Get the Middle Letter(s)
 
 ## REQUIREMENTS
 - The program runs in a REPL like irb or in a browser console.
@@ -21,8 +20,11 @@ get_middle("of") # => "of"
 | :--:    |   :--:   |
 |  "test" |   "es"   |
 |"testing"|   "t"    |
-
+| "middle"|   "dd"   |
+| "A"|   "A"   |
+| "of"|   "of"   |
 
 
 
 #### CLASSES/METHODS/TESTS
+middleLetter()
