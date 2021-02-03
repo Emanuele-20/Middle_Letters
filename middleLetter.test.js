@@ -13,6 +13,11 @@ describe('Middle Letter', () => {
     })
     it('Return one letter when the input is a single letter', () => {
         expect(middleLetter('A')).toBe("A")
-
+    })
+    it('Return one letter when the input is a single letter', () => {
+        expect(middleLetter('A')).toBe("A")
+    })
+    it('Return two letter when the input is a two letter word', () => {
+        expect(middleLetter('of')).toBe("of")
     })
 })
