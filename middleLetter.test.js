@@ -1,7 +1,7 @@
-const hello = require('./middleLetter')
+const middleLetter = require('./middleLetter')
 
-describe('Return hello', () => {
-    it('Return hello', () => {
-        expect(hello('Ema')).toBe('Ema hello')
+describe('Middle Letter', () => {
+    it('If the words length is even, return the 2 middle letter', () => {
+        expect(middleLetter('test')).toBe('es')
     })
 })
