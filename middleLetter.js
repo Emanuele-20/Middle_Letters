@@ -1,5 +1,4 @@
 function middleLetter(word) {
-    // var secondLetter = Math.floor((word.length / 2))
 
     if ((typeof word !== 'string' || word.length === 0 || /^\s*$/.test(word))){
         throw new Error ("You must provide a string")
