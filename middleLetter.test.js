@@ -16,4 +16,7 @@ describe('Middle Letter', () => {
     it('Return two letter when the input is a two letter word', () => {
         expect(middleLetter('of')).toBe("of")
     })
+    it('Return an error if we dont pass any string', () => {
+        expect(middleLetter).toThrow("You must provide a string")
+    })
 })

@@ -1,0 +1,3 @@
+- After first refactoring I decide to remove many variable with piece of logic inside (sacrificing readibility) because was hard to manage how throw a new errow in a scenario with invalid argument passed.
+- The code was blocked on (walk.length --> " impossible read a property of undefined)
+- Example of precedent encapsulation (var secondLetter = Math.floor((word.length / 2))
